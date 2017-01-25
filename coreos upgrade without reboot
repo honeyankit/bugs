@@ -1,0 +1,18 @@
+Feature Request
+1. CoreOS version upgrade without node reboot.
+
+2. As of today, we need to reboot the nodes once CoreOS version upgrade is done. 
+We should be able to upgrade the CoreOS version without doing reboots
+
+Environment
+N/A
+
+What hardware/cloud provider/hypervisor is being used to run CoreOS?
+Dell/Radisys/HP
+
+Desired Feature
+1. Installing the CoreOS upgrades to new paritiona and switch the paritions without reboot.
+
+Currently CoreOS version upgrade happens in the passive parition and after reboot, passive parition 
+becomes active and vice-versa. If we can acheive this without doing reboot it will grealty help us in 
+reducing the downtime as well as save from frequent reboots. 
